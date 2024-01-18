@@ -12,3 +12,5 @@ bit_band_address = alias_region_base + (region_base_offset x 32) + (bit_number x
   4.Tick Verify Program and Run program</br>
   5.Continue.</br>
 ## HAL Library</br>
+### Differences between USART and UART</br>
+Clock signal in USART</br>
