@@ -1,4 +1,4 @@
-# stm32nucleo-learning</br>
+# stm32 nucleo-learning</br>
 ## REFERENCES</br>
 Carmine Novellio</br>
 ### Updated firmware of St-link in stm32 nucleo board of mine</br>
