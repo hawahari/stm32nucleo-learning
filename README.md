@@ -33,3 +33,4 @@ to digital converter with a reference voltage of 3.3 V and 12-bit resolution, th
 coefficient is calculated as the below equation.</br>
 Resolution coefficient = reference voltage/(2^12-1)=805.86080 uV.</br>
 This is the accuracy of ADC. Thus, it cannot read voltage less than this value.</br>
+
