@@ -1,6 +1,7 @@
 # stm32 nucleo-learning</br>
 ## REFERENCES</br>
 Carmine Novellio</br>
+Advanced Programming with STM32 Microcontrollers</br>
 ### Updated firmware of St-link in stm32 nucleo board of mine</br>
 R0-R12 general purpose registers.</br>
 R13 Stack Pointer(SP) which is said to be banked, this means that register content changes according to current CPU mode(privileged or unprivileged).This is used by RTOS to do context switching.</br>
@@ -26,3 +27,8 @@ bus through a Bus Matrix to allow DMA access.</br>
 bus, where the most of peripherals are connected.</br>
 ### Differences between USART and UART</br>
 Clock signal in USART</br>
+### Resolution of ADC
+In an analogue
+to digital converter with a reference voltage of 3.3 V and 12-bit resolution, the resolution
+coefficient is calculated as the below equation.</br>
+Resolution coefficient = reference voltage/(2^12-1)=805.86080 uV.</br>
