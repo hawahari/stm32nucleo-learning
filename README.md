@@ -33,4 +33,18 @@ to digital converter with a reference voltage of 3.3 V and 12-bit resolution, th
 coefficient is calculated as the below equation.</br>
 Resolution coefficient = reference voltage/(2^12-1)=805.86080 uV.</br>
 This is the accuracy of ADC. Thus, it cannot read voltage less than this value.</br>
+##### GPIO_InitTypeDef.Mode
+###### Pin Mode                            
+GPIO_MODE_INPUT-Input Floating Mode </br>
+GPIO_MODE_OUTPUT_PP-Output Push Pull Mode</br>
+GPIO_MODE_OUTPUT_OD-Output Open Drain Mode</br>
+GPIO_MODE_AF_PP-Alternate Function Push Pull Mode</br>
+GPIO_MODE_AF_OD-Alternate Function Open Drain Mode</br>
+GPIO_MODE_ANALOG-Analog Mode</br>
+GPIO_MODE_IT_RISING-External Interrupt Mode with Rising edge trigger detection</br>
+GPIO_MODE_IT_FALLING-External Interrupt Mode with Falling edge trigger detection</br>
+GPIO_MODE_IT_RISING_FALLING-External Interrupt Mode with Rising/Falling edge trigger detection</br>
+GPIO_MODE_EVT_RISING-External Event Mode with Rising edge trigger detection</br>
+GPIO_MODE_EVT_FALLING-External Event Mode with Falling edge trigger detection</br>
+GPIO_MODE_EVT_RISING_FALLING-External Event Mode with Rising/Falling edge trigger detection</br>
 
