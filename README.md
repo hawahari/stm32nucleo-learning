@@ -47,4 +47,5 @@ GPIO_MODE_IT_RISING_FALLING-External Interrupt Mode with Rising/Falling edge tri
 GPIO_MODE_EVT_RISING-External Event Mode with Rising edge trigger detection</br>
 GPIO_MODE_EVT_FALLING-External Event Mode with Falling edge trigger detection</br>
 GPIO_MODE_EVT_RISING_FALLING-External Event Mode with Rising/Falling edge trigger detection</br>
+####  DAC
 
