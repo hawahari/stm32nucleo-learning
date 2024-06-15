@@ -2,6 +2,12 @@
 ## REFERENCES</br>
 Carmine Novellio</br>
 Advanced Programming with STM32 Microcontrollers</br>
+Stm32 ARM Programming for Embedded Systems</br>
+
+### C for embedded systems
+- aligned and unaligned allocation
+- A 32-bit processor such as the Arm architecture with 32-bit data bus readsthe memory with a minimum of 32 bits on the 4-byte boundary (addressending in 0, 4, 8, and C in hex)
+- If a short int variable is allocated straddling the 4-byte boundary, access to that variable is called an unaligned access.
 ### Updated firmware of St-link in stm32 nucleo board of mine</br>
 R0-R12 general purpose registers.</br>
 R13 Stack Pointer(SP) which is said to be banked, this means that register content changes according to current CPU mode(privileged or unprivileged).This is used by RTOS to do context switching.</br>
