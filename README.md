@@ -6,7 +6,7 @@ Stm32 ARM Programming for Embedded Systems</br>
 
 ### C for embedded systems
 - aligned and unaligned allocation
-- A 32-bit processor such as the Arm architecture with 32-bit data bus readsthe memory with a minimum of 32 bits on the 4-byte boundary (addressending in 0, 4, 8, and C in hex)
+- A 32-bit processor such as the Arm architecture with 32-bit data bus reads the memory with a minimum of 32 bits on the 4-byte boundary (addressending in 0, 4, 8, and C in hex)
 - If a short int variable is allocated straddling the 4-byte boundary, access to that variable is called an unaligned access.
 ### Updated firmware of St-link in stm32 nucleo board of mine</br>
 R0-R12 general purpose registers.</br>
@@ -31,6 +31,8 @@ Advanced Peripheral Bus(APB) bridge and AHB2). AHB peripherals are connected on 
 bus through a Bus Matrix to allow DMA access.</br>
 • The AHB to APB bridge provides full synchronous connections between the AHB and the APB
 bus, where the most of peripherals are connected.</br>
+### Memory Map
+- 4 GB (2 ^32)
 ### Differences between USART and UART</br>
 Clock signal in USART</br>
 ### Resolution of ADC
