@@ -57,3 +57,4 @@ GPIO_MODE_EVT_FALLING-External Event Mode with Falling edge trigger detection</b
 GPIO_MODE_EVT_RISING_FALLING-External Event Mode with Rising/Falling edge trigger detection</br>
 ####  DAC
 
+- the register bits are modified using “|=” operator to set the bit and “&=” to clear the bit
