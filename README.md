@@ -3,11 +3,19 @@
 Carmine Novellio</br>
 Advanced Programming with STM32 Microcontrollers</br>
 Stm32 ARM Programming for Embedded Systems</br>
+STM32F446RE datasheet</br>
 
 ### C for embedded systems
 - aligned and unaligned allocation
 - A 32-bit processor such as the Arm architecture with 32-bit data bus reads the memory with a minimum of 32 bits on the 4-byte boundary (addressending in 0, 4, 8, and C in hex)
 - If a short int variable is allocated straddling the 4-byte boundary, access to that variable is called an unaligned access.
+### Nomenclature
+- STM32
+- F means foundation series. Others are:L,G,U,etc.
+- Consecutive 4 refers to the ARM-Cortex M architecture number i.e M4.
+### Other features of this board
+- Comes with built-in st-link.
+- Since, based on M4, it supports SWV(Serial Wire View).(SWV is supported from M3 onwards.)
 ### Updated firmware of St-link in stm32 nucleo board of mine</br>
 R0-R12 general purpose registers.</br>
 R13 Stack Pointer(SP) which is said to be banked, this means that register content changes according to current CPU mode(privileged or unprivileged).This is used by RTOS to do context switching.</br>
