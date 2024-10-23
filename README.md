@@ -63,6 +63,28 @@ GPIO_MODE_IT_RISING_FALLING-External Interrupt Mode with Rising/Falling edge tri
 GPIO_MODE_EVT_RISING-External Event Mode with Rising edge trigger detection</br>
 GPIO_MODE_EVT_FALLING-External Event Mode with Falling edge trigger detection</br>
 GPIO_MODE_EVT_RISING_FALLING-External Event Mode with Rising/Falling edge trigger detection</br>
+#### PWM
+##### Timer
+##### Clock Configuration
+##### CCR register
+- Capture/Compare Register.
+- Sets the value upto which counter counts up/down.
+- Eg: If ARR is 100, and CCR is 50, then duty cycle is 50%.
+##### ARR
+- Auto Reload Register
+- Set the count value.
+###### Formulas
+- TIM Clock = APB TIM Clock/Prescaler.
+- frequency = TIM Clock/ARR
+- Duty %= CCR/ARR * 100 %
+###### Notes to remeber
+- Always check the line performance block diagram to see the clock sources.
+- Setting frequency too high can result in overcounting or undercounting.
 ####  DAC
 
 - the register bits are modified using “|=” operator to set the bit and “&=” to clear the bit
+#### Datasheet Reading
+- Go to stm32 site to download the datasheet.
+- Reference manual is the most important datasheet.
+- Other info like line performance block diagram is present in datasheet section of stm32 website. 
+
